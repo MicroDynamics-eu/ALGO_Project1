@@ -1,14 +1,13 @@
 {
   "folders": [
     {
-      "path": "single"
-    },
-    {
       "path": "app2"
     },
     {
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+    "powershell.cwd": ".AL-Go"
+  }
 }
