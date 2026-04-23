@@ -4,11 +4,14 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "DeployToDEV": {
+  "DeployToLocalDEV": {
     "continuousDeployment": true
   },
+  "DeployToDEV": {
+    "continuousDeployment": false
+  },
   "DeployToQA": {
-    "continuousDeployment": true
+    "continuousDeployment": false
   },
   "DeployToFAT": {
     "continuousDeployment": false
