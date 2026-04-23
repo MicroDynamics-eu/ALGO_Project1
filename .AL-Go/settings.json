@@ -3,14 +3,5 @@
   "country": "us",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": [],
-  "DeployToQA": {
-    "continuousDeployment": false
-  },
-  "DeployToFAT": {
-    "continuousDeployment": false
-  },
-  "DeployToPRD": {
-    "continuousDeployment": false
-  }
+  "bcptTestFolders": []
 }
