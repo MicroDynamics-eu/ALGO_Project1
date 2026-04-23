@@ -6,5 +6,11 @@
   "bcptTestFolders": [],
   "DeployToQA": {
     "continuousDeployment": false
+  },
+  "DeployToFAT": {
+    "continuousDeployment": false
+  },
+  "DeployToPRD": {
+    "continuousDeployment": false
   }
 }
