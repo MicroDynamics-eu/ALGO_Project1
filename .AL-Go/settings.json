@@ -8,7 +8,7 @@
     "continuousDeployment": true
   },
   "DeployToQA": {
-    "continuousDeployment": false
+    "continuousDeployment": true
   },
   "DeployToFAT": {
     "continuousDeployment": false
