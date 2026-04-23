@@ -15,28 +15,21 @@
       "name": "DEV",
       "environmentType": "Sandbox",
       "continuousDeployment": true,
-      "branches": [
-        "dev",
-        "feature/*"
-      ],
+      "branches": "dev,feature/*",
       "authContext": "AUTHCONTEXT"
     },
     {
       "name": "QA",
       "environmentType": "Sandbox",
       "continuousDeployment": false,
-      "branches": [
-        "release/*"
-      ],
+      "branches": "release/*",
       "authContext": "AUTHCONTEXT"
     },
     {
       "name": "FAT",
       "environmentType": "Sandbox",
       "continuousDeployment": false,
-      "branches": [
-        "release/*"
-      ],
+      "branches": "release/*",
       "authContext": "AUTHCONTEXT"
     },
     {
@@ -44,9 +37,7 @@
       "environmentType": "Production",
       "isProduction": true,
       "continuousDeployment": false,
-      "branches": [
-        "main"
-      ],
+      "branches": "main",
       "authContext": "AUTHCONTEXT"
     }
   ]
