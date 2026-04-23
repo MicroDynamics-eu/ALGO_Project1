@@ -6,6 +6,6 @@ pageextension 50000 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('Feature published: start fresh');
+        Message('Feature published: f1');
     end;
 }
