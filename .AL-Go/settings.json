@@ -3,12 +3,13 @@
 
   "type": "PTE",
   "country": "us",
-
   "artifact": "BC",
 
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
+
+  "excludeEnvironments": "",
 
   "environments": [
     {
