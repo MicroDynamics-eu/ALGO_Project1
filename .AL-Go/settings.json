@@ -8,7 +8,7 @@
     "continuousDeployment": true
   },
   "DeployToDEV": {
-    "continuousDeployment": false
+    "continuousDeployment": true
   },
   "DeployToQA": {
     "continuousDeployment": false
