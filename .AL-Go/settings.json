@@ -5,7 +5,7 @@
   "country": "us",
 
   "artifact": "BC",
-  "versioningStrategy": "SemVer",
+  "versioningStrategy": 1,
 
   "appFolders": [],
   "testFolders": [],
