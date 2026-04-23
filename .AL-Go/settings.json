@@ -4,6 +4,9 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
+  "DeployToDEV": {
+    "continuousDeployment": true
+  },
   "DeployToQA": {
     "continuousDeployment": false
   },
