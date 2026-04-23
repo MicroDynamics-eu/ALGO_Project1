@@ -1,45 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v9.0/.Modules/settings.schema.json",
-
-  "type": "PTE",
   "country": "us",
-  "artifact": "BC",
-
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": [],
-
-  "excludeEnvironments": "",
-
-  "environments": [
-    {
-      "name": "DEV",
-      "environmentType": "Sandbox",
-      "continuousDeployment": true,
-      "branches": "dev,feature/*",
-      "authContext": "AUTHCONTEXT"
-    },
-    {
-      "name": "QA",
-      "environmentType": "Sandbox",
-      "continuousDeployment": false,
-      "branches": "release/*",
-      "authContext": "AUTHCONTEXT"
-    },
-    {
-      "name": "FAT",
-      "environmentType": "Sandbox",
-      "continuousDeployment": false,
-      "branches": "release/*",
-      "authContext": "AUTHCONTEXT"
-    },
-    {
-      "name": "PRD",
-      "environmentType": "Production",
-      "isProduction": true,
-      "continuousDeployment": false,
-      "branches": "main",
-      "authContext": "AUTHCONTEXT"
-    }
-  ]
+  "bcptTestFolders": []
 }
